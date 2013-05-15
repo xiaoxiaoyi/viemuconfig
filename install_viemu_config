@@ -1,5 +1,0 @@
-﻿#!/bin/sh
-
-#复制文件夹
-cp .viemurc ..
-
