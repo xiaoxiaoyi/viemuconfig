@@ -1,9 +1,9 @@
-#!/bin/sh
+ï»¿#!/bin/sh
 
-#¸´ÖÆÎÄ¼ş¼Ğ
+#å¤åˆ¶æ–‡ä»¶å¤¹
 cp ../.viemurc .
 
-#gitÉÏ´«
+#gitä¸Šä¼ 
 
 #touch README.md
 #git init
