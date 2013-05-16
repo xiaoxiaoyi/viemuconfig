@@ -21,5 +21,5 @@ set -o nounset                              # Treat unset variables as an error
 
 
 #复制文件夹
-cp .viemurc ~
+cat viemurc > ~/.viemurc
 

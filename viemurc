@@ -1,0 +1,8 @@
+nmap ,w :w<cr>
+nmap <c-a-o> j
+"debug 
+nmap ,de :deb<cr>
+nmap ,fu :vsc FullScreen<cr>
+"nmap ,dh :vsc DelHSp
+nmap ,p :vsc Window.PreviousDocumentWindowNav<cr>
+nmap ,n :vsc Window.NextDocumentWindowNav<cr>

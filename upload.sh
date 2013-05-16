@@ -20,7 +20,7 @@
 set -o nounset                              # Treat unset variables as an error
 
 #复制文件夹
-cp ../.viemurc .
+cat ../.viemurc > viemurc
 
 #git上传
 
@@ -29,6 +29,7 @@ cp ../.viemurc .
 #git add README.md
 #git commit -m "first commit"
 #git remote add origin git@github.com:xiaoxiaoyi/viemuconfig.git
+echo "copy to current dir and upload"
 git add *
 git commit -m "auto upload"
 git push -u origin master
