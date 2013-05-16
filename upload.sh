@@ -31,6 +31,7 @@ cat ../.viemurc > viemurc
 #git remote add origin git@github.com:xiaoxiaoyi/viemuconfig.git
 echo "copy to current dir and upload"
 git add *
+git status
 git commit -m "auto upload"
 git push -u origin master
 
